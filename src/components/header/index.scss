@@ -1,0 +1,26 @@
+.index {
+  position: relative;
+  height: 90px;
+  border-bottom: 1px solid #f1f1f1;
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    .container {
+      width: 96%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      .img {
+        width: 196px;
+        height: 72px;
+      }
+      .login-regist {
+        line-height: 90px;
+        color: #007fff;
+        font-size: 32px;
+      }
+    }
+  }
+}
